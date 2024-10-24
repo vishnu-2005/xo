@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> XO Game </title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href = "toggle.css">
+</head>
+<body>
+    <main>
+        <div id = "header">
+            <div id = "outside">
+                <div id = "bulb"><i class="fa-solid fa-lightbulb"></i></div>
+            </div>
+            <h1 id = "heading"> XO Game </h1>
+        </div>
+    <div class="winner hide">
+        <h2 id = "winner"></h2>
+        <button id = "new">New game</button>
+    </div>
+    <div id = "biggerbox">
+        <div id = "game">
+            <div class = "outer"><button class = "inner"></button><button class = "inner"></button><button class = "inner"></button></div>
+            <div class = "outer"><button class = "inner"></button><button class = "inner"></button><button class = "inner"></button></div>
+            <div class = "outer"><button class = "inner"></button><button class = "inner"></button><button class = "inner"></button></div>
+        </div>
+        <div id="score">
+            <div id="obox">
+                <p id = "o_score" class = "scores">0</p>
+                <p id = "o">O</p>
+            </div>
+            <div id="xbox">
+                <p id = "x_score" class = "scores">0</p>
+                <p id  = "x">X</p>
+            </div>
+        </div>
+    </div>
+    <div class = "reset">
+        <button id = "reset">Reset game</button>
+    </div>
+    <script src = "script.js"></script>
+    <script src = "toggle.js"></script>
+    </main>
+</body>
+</html>

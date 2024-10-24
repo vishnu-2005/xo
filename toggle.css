@@ -1,0 +1,32 @@
+#outside{
+    margin: 5px;
+    height: 2.2rem;
+    width: 4.5rem;
+    border: 2px solid transparent;
+    border-radius: 1.1rem;
+    display: flex;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+.end{
+    justify-content: flex-end;
+}
+#bulb{ 
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    background-color: black ;
+    color: white;
+}
+#bulb i{
+    font-size: 1.5rem;
+}

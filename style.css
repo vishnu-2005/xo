@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #212529;
+}
+
+#header{
+    display: flex;
+}
+h1{
+    text-align: center;
+    color: #F8F9FA;
+    font-size: 2rem;
+    width: 90vw;
+}
+#biggerbox{
+    height : 70vh;
+    width  : 100vw;
+    display: flex;
+    flex-direction: row;
+}
+#game{
+    height : 70vh;
+    width  : 80vw;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    flex-direction: column;
+}
+#score{
+    width: 18vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 4rem;
+    color: #fff;
+}
+
+.scores{
+    font-size: 4rem;
+}
+
+#o{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+#x{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.outer{
+    height : 23vh;
+    width  : 62vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 1rem;
+}
+.inner{
+    height : 20vh;
+    width  : 20vh;
+    background-color: #ADB5BD;
+    color: #212529;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 15vh;
+    border: none;
+}
+
+.inner:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color: #000;
+    height : 19vh;
+    width  : 19vh;
+}
+
+.winner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 6rem;
+    gap : 1rem;
+}
+
+
+#new{
+    background-color: #CED4DA;
+    color: black;
+    height: 2rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#new:hover{
+    cursor: pointer;
+    height: 1.5rem;
+}
+
+#reset{
+    background-color: #CED4DA;
+    color: black;
+    height: 2rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border: none;
+}
+
+#reset:hover{
+    cursor: pointer;
+    height: 1.5rem;
+}
+
+.reset{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+#winner{
+    color: #F8F9FA;
+}
